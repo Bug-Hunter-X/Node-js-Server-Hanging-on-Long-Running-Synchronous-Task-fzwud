@@ -1,0 +1,3 @@
+# Node.js Server Hanging on Long-Running Synchronous Task
+
+This repository demonstrates a common issue in Node.js where a long-running synchronous operation in the request handler blocks the event loop, causing the server to hang and become unresponsive.  The example uses a simple `while` loop to simulate a CPU-bound task.  The solution demonstrates how to fix this by using asynchronous operations.
